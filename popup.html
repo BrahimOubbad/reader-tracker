@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      width: 150px;
+      padding: 10px;
+      font-family: sans-serif;
+    }
+    .option {
+      margin-bottom: 5px;
+      display: flex;
+      align-items: center;
+    }
+    .option input {
+      margin-right: 8px;
+    }
+    h3 {
+      margin-top: 0;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h3>Select Headings</h3>
+  <div id="options">
+    <div class="option"><input type="checkbox" value="h1" id="h1"><label for="h1">H1</label></div>
+    <div class="option"><input type="checkbox" value="h2" id="h2"><label for="h2">H2</label></div>
+    <div class="option"><input type="checkbox" value="h3" id="h3" checked><label for="h3">H3</label></div>
+    <div class="option"><input type="checkbox" value="h4" id="h4"><label for="h4">H4</label></div>
+    <div class="option"><input type="checkbox" value="h5" id="h5"><label for="h5">H5</label></div>
+    <div class="option"><input type="checkbox" value="h6" id="h6"><label for="h6">H6</label></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
